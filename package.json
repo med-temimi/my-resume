@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --host",
-    "start": "NODE_ENV=production node dist/index.js",
+    "start": "NODE_ENV=production node client/index.html",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
